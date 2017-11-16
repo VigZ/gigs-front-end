@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: #8A2BE2;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+}
+.app-container {
+  border: 1px solid #fff;
+  height: 80%;
+  display: flex;
+}
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-container{
+  grid-template-columns: 90px auto 90px;
+  grid-template-rows: 35% 100px auto;
+}
+.image-div {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+.myButton svg{
+  width:180px;
+  height:60px;
+  z-index: -100;
+  fill-opacity: 0;
+  text-align: center;
+}
+
+.buttonText {
+  position: relative;
+	stroke: #F8F8FF;
+  fill: #F8F8FF;
+  opacity: 1;
+  z-index: 100;
+}
+
+.ui.white.buttons .button,
+.ui.white.button {
+background-color: #ffffff;
+color: #ffffff;
+text-shadow: none;
+background-image: none;
+}
+.ui.white.button {
+box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.ui.white.buttons .button:hover,
+.ui.white.button:hover {
+background-color: #fbfcfc;
+color: #ffffff;
+text-shadow: none;
+}
+.ui.white.buttons .button:focus,
+.ui.white.button:focus {
+background-color: #ffffff;
+color: #ffffff;
+text-shadow: none;
+}
+.ui.white.buttons .button:active,
+.ui.white.button:active {
+background-color: #ffffff;
+color: #ffffff;
+text-shadow: none;
+}
+.ui.white.buttons .active.button,
+.ui.white.buttons .active.button:active,
+.ui.white.active.button,
+.ui.white.button .active.button:active {
+background-color: #dfe2e6;
+color: #ffffff;
+text-shadow: none;
+}
+
+.ui.basic.white.buttons .button,
+.ui.basic.white.button {
+box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset !important;
+color: rgba(0, 0, 0, 0.6) !important;
+}
+.ui.basic.white.buttons .button:hover,
+.ui.basic.white.button:hover {
+background: transparent !important;
+box-shadow: 0px 0px 0px 2px #fbfcfc inset !important;
+color: #fbfcfc !important;
+}
+.ui.basic.white.buttons .button:focus,
+.ui.basic.white.button:focus {
+background: transparent !important;
+box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+}
+.ui.basic.white.buttons .active.button,
+.ui.basic.white.active.button {
+background: transparent !important;
+box-shadow: 0px 0px 0px 2px #dfe2e6 inset !important;
+color: #ffffff !important;
+}
+.ui.basic.white.buttons .button:active,
+.ui.basic.white.button:active {
+box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+color: #ffffff !important;
+}
+.ui.buttons:not(.vertical) > .basic.white.button:not(:first-child) {
+margin-left: -2px;
+}
+.ui.inverted.white.buttons .button,
+.ui.inverted.white.button {
+background-color: transparent;
+box-shadow: 0px 0px 0px 2px #d4d4d5 inset !important;
+color: #ffffff;
+}
+.ui.inverted.white.buttons .button:hover,
+.ui.inverted.white.button:hover,
+.ui.inverted.white.buttons .button:focus,
+.ui.inverted.white.button:focus,
+.ui.inverted.white.buttons .button.active,
+.ui.inverted.white.button.active,
+.ui.inverted.white.buttons .button:active,
+.ui.inverted.white.button:active {
+box-shadow: none !important;
+color: rgba(0, 0, 0, 0.6);
+}
+.ui.inverted.white.buttons .button:hover,
+.ui.inverted.white.button:hover {
+background-color: #cfd0d2;
+}
+.ui.inverted.white.buttons .button:focus,
+.ui.inverted.white.button:focus {
+background-color: #c7c9cb;
+}
+.ui.inverted.white.buttons .active.button,
+.ui.inverted.white.active.button {
+background-color: #cfd0d2;
+}
+.ui.inverted.white.buttons .button:active,
+.ui.inverted.white.button:active {
+background-color: #c2c4c5;
+}
+
+/* Inverted Basic */
+.ui.inverted.white.basic.buttons .button,
+.ui.inverted.white.buttons .basic.button,
+.ui.inverted.white.basic.button {
+background-color: transparent;
+box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+color: #ffffff !important;
+}
+.ui.inverted.white.basic.buttons .button:hover,
+.ui.inverted.white.buttons .basic.button:hover,
+.ui.inverted.white.basic.button:hover {
+box-shadow: 0px 0px 0px 2px #cfd0d2 inset !important;
+color: #ffffff !important;
+}
+.ui.inverted.white.basic.buttons .button:focus,
+.ui.inverted.white.basic.buttons .button:focus,
+.ui.inverted.white.basic.button:focus {
+box-shadow: 0px 0px 0px 2px #c7c9cb inset !important;
+color: #dcddde !important;
+}
+.ui.inverted.white.basic.buttons .active.button,
+.ui.inverted.white.buttons .basic.active.button,
+.ui.inverted.white.basic.active.button {
+box-shadow: 0px 0px 0px 2px #cfd0d2 inset !important;
+color: #ffffff !important;
+}
+.ui.inverted.white.basic.buttons .button:active,
+.ui.inverted.white.buttons .basic.button:active,
+.ui.inverted.white.basic.button:active {
+box-shadow: 0px 0px 0px 2px #c2c4c5 inset !important;
+color: #ffffff !important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
